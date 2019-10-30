@@ -1,7 +1,8 @@
 
 body{
   
-  background-color: none ;
+  background-color: black ;
+color : #595858;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -25,6 +26,7 @@ body{
   margin-top : 40px ;
   margin-bottom: 10px;
 
+
 }
 .navbar-toggler-icon {
   color: black;
@@ -34,15 +36,19 @@ body{
   width: 35px;
 }
 
+.links {
+  color: #333333 ;
+  text-decoration: none;
+}
 
 .navbar a{
-  color: black;
+  color: #333333;
   font-size: 18px;
   transition: transform .2s
 }
 
 .navbar a:hover{
-  color: grey;
+  color: white;
   transform: scale(1.2);
   
 }
@@ -69,12 +75,12 @@ body{
 }
 
 .social-links a {
-  color: #979797;
+  color: #333333;
   font-size: 25px;
   margin-right: 35px;
 }
 .social-links a:hover{
-      color: black
+      color: white;
 }
 .social-links a:last-child {
   margin-right: 0;
