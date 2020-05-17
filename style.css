@@ -1,88 +1,23 @@
-
-body{
-  
-  background-color: #aaaaaa ;
-
-  font-family: 'Source Sans Pro', sans-serif;
+.row {
+    margin-top: 200px;
 }
-
-
-.row{
-  font-size: 150%;
-
-}
-
-
-
-.profileimage{
-  width: 250px;
-  height: 250px;
-}
-
-
-
-.navbar{
-  background-color:none;
-  margin-top : 40px ;
-  margin-bottom: 10px;
-
-
-}
-.navbar-toggler-icon {
-  color: black;
-  border-color: black;
-  background-color: black;
-  height: 10px;
-  width: 35px;
-}
-
-.links {
-  color: #333333 ;
-  text-decoration: none;
-}
-
-.navbar a{
-  color: #333333;
-  font-size: 18px;
-  transition: transform .2s
-}
-
-.navbar a:hover{
-  color: black;
-  transform: scale(1.2);
-  
-}
- 
- 
-
-
-.container{
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
-
-
-
-
-
 
 
 
 .social-links {
-  margin-top: 40px;
-  margin-bottom: 20px;
- 
-}
-
-.social-links a {
-  color: #333333;
-  font-size: 25px;
-  margin-right: 35px;
-}
-.social-links a:hover{
-      color: black;
-}
-.social-links a:last-child {
-  margin-right: 0;
-}
-
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .social-links a {
+    color: #333333;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+  .social-links a:hover{
+        color: black;
+  }
+  .social-links a:last-child {
+    margin-right: 0;
+  }
